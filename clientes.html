@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Clientes</title>
+    <link rel="stylesheet" type="text/css" href="stylecliente.css">
+</head>
+<body>
+    
+    <h1>Agregar Cliente</h1>
+    <div class="cerrar_sesion">
+        <button id="salir_cuenta" class="boton_salir">
+            <a href="index.html">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <span>Salir</span>
+            </a>
+        </button>
+    </div>
+    <form id="clienteForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+        <label for="edad">Edad (mayor de 18 y menor de 80):</label>
+        <input type="number" id="edad" required min="19" max="79">
+        <label for="correo">Correo (debe tener 1 @ y terminar en .com o .es):</label>
+        <input type="email" id="correo" required>
+        <label for="puntos">Puntos:</label>
+        <input type="number" id="puntos" step="1" value="0">
+        <button type="button" onclick="agregarCliente()">Agregar Cliente</button>
+    </form>
+    
+    <h2>Clientes Registrados</h2>
+    <div id="clientesLista">
+        <!-- Aquí se mostrarán los clientes registrados -->
+    </div>
+
+    <script src="scriptclientes.js"></script>
+</body>
+</html>
+
+
+

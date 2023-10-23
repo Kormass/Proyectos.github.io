@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../../images/fondo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    max-width: 1000px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #000;
+
+}
+.boton{
+    margin-left: 10px;
+    background-color: #007BFF;
+    color: white;
+    margin-top: 10px;
+}
+h2 {
+    color: #007BFF;
+}
+
+/* Estilos del formulario */
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+input [type="submit"] {
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

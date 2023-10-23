@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url(../images/fondojuegos.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    margin-left: 430px;
+}
+.cerrar_sesion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.salir{
+    max-width: 30px;
+    max-height: 30px;
+}
+h2{
+    color:white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3 {
+    color: #007BFF;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color:white;    
+}
+.acciones {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 5px;
+    border: 1px solid #000;
+    background-color: #429dff;
+    color: white;
+    font-weight: 400;
+}
+
+.juegos {
+    text-align: center;
+}
+
+.juego {
+    border: 3px solid #483e3e;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    background-color: black;
+    border-image: 3px solid #483e3e;
+}
+
+.juego img {
+    max-width: 100px;
+    border-image: auto;
+}
+
+.juego h3 {
+    font-size: 18px;
+}
+
+.juego p {
+    font-size: 14px;
+}
